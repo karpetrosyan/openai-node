@@ -2809,9 +2809,9 @@ export interface ResponseMcpCallArgumentsDeltaEvent {
   sequence_number: number;
 
   /**
-   * The type of the event. Always 'response.mcp_call.arguments_delta'.
+   * The type of the event. Always 'response.mcp_call.arguments.delta'.
    */
-  type: 'response.mcp_call.arguments_delta';
+  type: 'response.mcp_call.arguments.delta';
 }
 
 /**
@@ -3499,9 +3499,9 @@ export interface ResponseOutputTextAnnotationAddedEvent {
   sequence_number: number;
 
   /**
-   * The type of the event. Always 'response.output_text_annotation.added'.
+   * The type of the event. Always 'response.output_text.annotation.added'.
    */
-  type: 'response.output_text_annotation.added';
+  type: 'response.output_text.annotation.added';
 }
 
 /**
